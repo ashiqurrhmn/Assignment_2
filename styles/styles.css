@@ -1,3 +1,179 @@
-body{
-    background-color: red;
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    47.64deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+}
+.gradient-text {
+  background: linear-gradient(
+    360deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body {
+  background-color: #1a0b2e;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 200px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 32px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.links li {
+  list-style: none;
+}
+.logo h3 {
+  font-size: 2rem;
+  font-style: bold;
+}
+.sub {
+  color: white;
+  font-weight: 600;
+  align-items: center;
+  width: 135px;
+  height: 44px;
+  border-radius: 10000px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.arrow {
+  width: 17px;
+  height: 17px;
+}
+
+.banner {
+  height: 100vh;
+  background: url("../assets/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-container {
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-img {
+  position: relative;
+  margin: 0 auto;
+  width: 415px;
+  height: 415px;
+}
+
+.hero-circle {
+  width: 100%;
+  height: 100%;
+}
+.microphone {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.badge {
+  width: 75px;
+  height: 37px;
+  position: absolute;
+  top: 6%;
+  right: 6%;
+  z-index: 40;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ff88;
+  color: #1a0b2e;
+  font-size: 18px;
+  font-weight: 600;  
+  border-radius: 10000px;
+  border: none; 
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+@keyframes badge-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 6px 18px rgba(0, 255, 136, 0.12), 0 0 0 rgba(0,255,136,0);
+    opacity: 1;
+  }
+  45% {
+    transform: scale(1.06);
+    box-shadow: 0 18px 40px rgba(0, 255, 136, 0.32), 0 0 18px rgba(51,255,154,0.18);
+    opacity: 0.98;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 6px 18px rgba(0, 255, 136, 0.12), 0 0 0 rgba(0,255,136,0);
+    opacity: 2;
+  }
+}
+
+.banner-title {
+  margin-top: 40px;
+}
+.banner-title h1 {
+  font-size: 3.75rem;
+  font-style: extra-bold;
+  margin-bottom: 8px;
+}
+.banner-title p {
+  margin-bottom: 24px;
+}
+.banner-button {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.spoti {
+  color: white;
+  font-weight: 600;
+  width: 201px;
+  height: 44px;
+  border-radius: 10000px;
+  border: none;
+  align-items: center;
+  display: flex;
+  gap: 9.67px;
+  justify-content: center;
+}
+.sub-btn {
+  color: #00ff88;
+  font-weight: 600;
+  border-color: #00ff88;
+  border-radius: 10000px;
+  background: transparent;
+  width: 147px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9.11px;
 }
