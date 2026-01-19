@@ -588,6 +588,52 @@ footer{
 .div-2{
   margin-top: 60px;
 }
+
+footer{
+  padding: 40px 20px;
+  background-position: center;
+  background-size: cover;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 0;
+}
+.footer-logo{
+  max-width: 219px;
+  height: auto;
+}
+.socials-link{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.soci{
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.soci div{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  color: rgba(255,255,255,0.85);
+}
+.soci img{
+  width: 24px;
+  height: 24px;
+}
+.soci span{
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+}
+.copy{
+  color: rgba(255,255,255,0.7);
+}
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
