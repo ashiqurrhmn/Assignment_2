@@ -351,7 +351,7 @@ hr {
 }
 .div-2{
   max-width: 1200px;
-  margin: 120px auto;
+  margin: 120px auto 0;
 }
 .div-container{
   border: none;
@@ -394,8 +394,43 @@ hr {
   height: 20px;
 }
 
+footer{
+  background: url("../assets/footer-bg.png") center/cover no-repeat;
+}
+.footer-content{
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 120px;
+}
+.footer-logo{
+  width: 410px;
+}
+.footer-content .socials-link{
+  margin-top: 32px;
+  margin-bottom: 32px;
 
-
+}
+.soci{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.soci div a{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.soci span{
+  color: rgba(255, 255, 255, 0.699);
+  font-weight: 500;
+}
+.soci a{
+  text-decoration: none;
+}
+.copy{
+  color: rgba(255, 255, 255, 0.699);
+}
 @media screen and (max-width: 576px) {
   .sub {
     display: none;
