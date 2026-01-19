@@ -254,7 +254,7 @@ hr {
 
 .why-choose {
   text-align: center;
-  background-color: #230E3D;
+  background-color: #230e3d;
   padding: 120px 200px;
 }
 .choose-title h2 {
@@ -284,16 +284,16 @@ hr {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-.layout p{
+.layout p {
   color: rgba(255, 255, 255, 0.699);
 }
-.card-1{
+.card-1 {
   grid-row: span 2;
 }
-.card-2{
+.card-2 {
   grid-column: span 2;
 }
-.card-3{
+.card-3 {
   grid-column: span 2;
 }
 
@@ -393,23 +393,25 @@ hr {
   }
 
   .why-choose {
-  text-align: center;
-  padding: 40px 20px;
-}
-  .choose-title h2{
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .choose-title h2 {
     font-size: 2rem;
   }
   .layout {
     display: grid;
     grid-template-columns: 1fr;
-    .card-1, .card-2, .card-3, .card-4 {
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
       grid-column: span 1;
       grid-row: span 1;
     }
     gap: 16px;
+  }
 }
-}
-
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar {
@@ -481,5 +483,24 @@ hr {
   }
   hr {
     margin: 40px 20px;
+  }
+  .why-choose {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .choose-title h2 {
+    font-size: 2rem;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+    gap: 16px;
   }
 }
