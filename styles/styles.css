@@ -212,48 +212,45 @@ body {
   height: 24px;
 }
 
-.about-text{
+.about-text {
   margin: 0 auto;
   text-align: center;
   max-width: 900px;
-  
 }
-.about-title{
+.about-title {
   font-size: 3rem;
   font-style: bold;
   margin-bottom: 16px;
 }
-.p-1{
+.p-1 {
   text-align: center;
   color: rgba(255, 255, 255, 0.699);
 }
-.numbers{
+.numbers {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
+
   max-width: 1200px;
   margin: 0 auto;
 }
-.txt{
+.txt {
   margin-bottom: 120px;
 }
-.numbers h2{
-  color: #00FF88;
+.numbers h2 {
+  color: #00ff88;
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 16px;
 }
-.numbers p{
+.numbers p {
   color: rgba(255, 255, 255, 0.699);
 }
-hr{
+hr {
   max-width: 1200px;
   margin: 80px auto;
   border: 1px solid rgba(255, 255, 255, 0.116);
 }
-
-
 
 @media screen and (max-width: 576px) {
   .sub {
@@ -335,28 +332,27 @@ hr{
     font-size: 2rem;
     font-style: bold;
     margin-bottom: 16px;
+  }
+  .numbers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .numbers h2 {
+    font-size: 2.5rem;
+  }
+  .txt {
+    text-align: center;
+  }
+  hr {
+    margin: 40px 20px;
+  }
 }
-.numbers{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.numbers h2{
-  font-size: 2.5rem;
-}
-.txt{
-  text-align: center;
-}
-hr{
-  margin: 40px 20px;
-}
-}
-
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar {
     padding: 20px 50px;
   }
-  .links{
+  .links {
     flex-direction: column;
     text-align: center;
     gap: 15px;
@@ -370,6 +366,7 @@ hr{
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    margin-bottom: 40px;
   }
   .banner-container {
     width: 100%;
@@ -405,5 +402,21 @@ hr{
   }
   .banner-title p {
     margin-bottom: 24px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    font-style: bold;
+    margin-bottom: 16px;
+  }
+  .numbers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .txt {
+    text-align: center;
+  }
+  hr {
+    margin: 40px 20px;
   }
 }
