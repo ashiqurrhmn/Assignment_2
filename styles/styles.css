@@ -402,6 +402,10 @@ hr {
   .layout {
     display: grid;
     grid-template-columns: 1fr;
+    .card-1, .card-2, .card-3, .card-4 {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
     gap: 16px;
 }
 }
