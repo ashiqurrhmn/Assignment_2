@@ -39,8 +39,6 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.116);
   align-items: center;
 }
-
-/* hamburger (hidden by default) */
 .hamburger {
   display: none;
   background: none;
@@ -108,6 +106,8 @@ body {
   height: 100%;
 }
 .microphone {
+  width: 116.67px;
+  height: 175px;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -237,9 +237,54 @@ body {
   #menu-toggle:checked ~ .links {
     display: flex;
   }
-
   .links li {
     text-align: center;
     width: 100%;
+  }
+  .banner {
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+
+    background-position: top center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .banner-container {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .hero-circle {
+    width: 100%;
+    display: block;
+  }
+  .microphone {
+    width: 60px;
+    height: auto;
+    top: 50%;
+  }
+  .badge {
+    top: 1%;
+    right: -15%;
+    width: 70px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .banner-title {
+    margin-top: 24px;
+  }
+  .banner-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+  }
+  .banner-title p {
+    margin-bottom: 24px;
   }
 }
