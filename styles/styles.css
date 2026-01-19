@@ -7,7 +7,14 @@
   margin: 0;
   padding: 0;
 }
+.btn-animation {
+  transition: transform 0.30s ease;
+  cursor: pointer;
+}
 
+.btn-animation:hover {
+  transform: scale(1.05);
+}
 .gradient-bg {
   background: linear-gradient(
     47.64deg,
@@ -604,11 +611,6 @@ footer{
 .footer-logo{
   max-width: 219px;
   height: auto;
-}
-.socials-link{
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 .soci{
   display: flex;
