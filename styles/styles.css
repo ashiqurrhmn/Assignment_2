@@ -252,6 +252,51 @@ hr {
   border: 1px solid rgba(255, 255, 255, 0.116);
 }
 
+.why-choose {
+  text-align: center;
+  background-color: #230E3D;
+  padding: 120px 200px;
+}
+.choose-title h2 {
+  font-size: 3rem;
+  font-style: bold;
+  margin-bottom: 40px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+.layout div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: none;
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  text-align: left;
+}
+.layout h4 {
+  font-size: 1.5rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.layout p{
+  color: rgba(255, 255, 255, 0.699);
+}
+.card-1{
+  grid-row: span 2;
+}
+.card-2{
+  grid-column: span 2;
+}
+.card-3{
+  grid-column: span 2;
+}
+
 @media screen and (max-width: 576px) {
   .sub {
     display: none;
