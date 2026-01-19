@@ -315,7 +315,7 @@ hr {
   gap: 30px;
 }
 .cards iframe{
-  width: 380px;
+  width: 100%;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
 }
@@ -379,7 +379,6 @@ hr {
 .div-img img{
   width: 200px;
   height: auto;
-  border-radius: 100%;
 }
 .socials{
   display: flex;
@@ -646,4 +645,30 @@ hr {
     }
     gap: 16px;
   }
+
+  .features{
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .div-title{
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+  .card-words h4{
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+   
+  .div-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.cards iframe{
+  width: 100%;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
 }
