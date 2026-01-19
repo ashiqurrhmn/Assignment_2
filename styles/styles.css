@@ -391,7 +391,21 @@ hr {
   hr {
     margin: 40px 20px;
   }
+
+  .why-choose {
+  text-align: center;
+  padding: 40px 20px;
 }
+  .choose-title h2{
+    font-size: 2rem;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar {
